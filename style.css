@@ -17,31 +17,44 @@ main
 {
     background-color: bisque;
     min-height: 300px;
+    display: flex;
 }
 .cards
 {
     background-color: blueviolet;
     min-height: 300px;
     display: flex;
+    justify-content: space-between;
 }
 
 .card1
 {
     background-color: black;
     min-height: 300px;
-    width: 33.3%;
+    width: 30%;
 }
 
 .card2
 {
     background-color: rgb(84, 68, 210);
     min-height: 300px;
-    width: 33.3%;
+    width: 30%;
 }
 
 .card3
 {
     background-color: rgb(214, 96, 173);
     min-height: 300px;
-    width: 33.3%;
+    width: 30%;
+}
+
+.herobox1
+{
+    background-color: blue;
+    flex: 2;
+}
+.herobox2
+{
+    background-color: brown;
+    flex: 1;
 }
