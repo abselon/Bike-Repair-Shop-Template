@@ -1,60 +1,169 @@
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background-image: linear-gradient(#FC5E55, #FA4083 );
+    font-family: 'Roboto', sans-serif;  
+    color: white;
+    font-size: 1.125rem;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
 .container
 {
     width: 1024px;
     min-height: 300px;
-    background-color: rgb(70, 187, 148);
     margin-left: auto;
     margin-right: auto;
 }
 
 header
 {
-    background-color: rgb(34, 80, 65);
-    min-height: 100px;
+
+    display: flex;
+    align-items: center;
+
 }
 
 main
 {
-    background-color: bisque;
     min-height: 300px;
     display: flex;
+    align-items: center;
 }
 .cards
 {
-    background-color: blueviolet;
-    min-height: 300px;
     display: flex;
     justify-content: space-between;
+    text-align: center;
 }
 
 .card1
 {
-    background-color: black;
-    min-height: 300px;
+    background-image: url(images/image-background-card1.jpg);
+    min-height: 250px;
     width: 30%;
+    background-position: bottom;
 }
 
 .card2
 {
-    background-color: rgb(84, 68, 210);
-    min-height: 300px;
+    background-image: url(images/image-background-card2.jpg);
+    min-height: 250px;
     width: 30%;
+    background-position: bottom;
 }
 
 .card3
 {
-    background-color: rgb(214, 96, 173);
-    min-height: 300px;
+    background-image: url(images/image-background-card3.jpg);
+    min-height: 250px;
     width: 30%;
+    background-position: bottom;
+}
+
+.card1, .card2, .card3
+{
+    padding: 20px 30px 20px 30px;
+    box-sizing: border-box;
 }
 
 .herobox1
 {
-    background-color: blue;
     flex: 2;
+    padding-right: 100px;
 }
 .herobox2
 {
-    background-color: brown;
     flex: 1;
+}
+
+.logo
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 632.5px;
+    align-items: center;
+}
+
+.nav1
+{
+    padding: 5px;
+}
+
+.nav2
+{
+    padding: 5px;
+}
+
+.nav3
+{
+    padding: 5px;
+}
+
+.nav4
+{
+    padding: 5px;
+}
+
+h1
+{
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+
+h2
+{
+    font-size: 1.75rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+
+p
+{
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.cards p 
+{
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin-top: 10px;
+}
+.cards i
+{
+    font-size: 100px;
+    padding-top: 30px;
+}
+
+.cards a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.mybutton
+{
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    display: inline-block; /* sometimes margin does not work without this */
+    margin-top: 10px;
 }
